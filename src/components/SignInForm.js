@@ -57,7 +57,7 @@ class SignInForm extends React.Component {
     e.preventDefault();
 
     const http = new XMLHttpRequest();
-    const url = "http://localhost:8000";
+    const url = "localhost:8000/api/login";
     const params =
       "email=" +
       this.state.email.value +
