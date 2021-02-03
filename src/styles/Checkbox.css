@@ -1,0 +1,16 @@
+.checkbox {
+  display: block;
+  margin: 2px 0 5px;
+}
+
+.checkbox input {
+  outline: 0;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.checkbox label {
+  font-size: 18px;
+  cursor: pointer;
+  user-select: none;
+}

@@ -1,0 +1,33 @@
+.form-input {
+  position: relative;
+  max-width: 100%;
+}
+
+.form-input label.field-name {
+  display: block;
+  font-family: Roboto-Medium;
+  font-size: 20px;
+}
+
+.form-input label.error {
+  display: block;
+  min-height: 18px;
+  color: red;
+  margin: 2px 0;
+  font-size: 15px;
+}
+
+.form-input input[type="text"],
+.form-input input[type="password"],
+.form-input input[type="email"] {
+  outline: 0;
+  border: 1px solid #cfd5db;
+  width: 100%;
+  max-width: 100%;
+  padding: 10px 5px;
+  font-size: 16px;
+}
+
+.form-input.error input {
+  border: 1px solid red;
+}

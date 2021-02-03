@@ -1,0 +1,52 @@
+.sign-in-form {
+  background-color: #fff;
+  border-top: 2px solid #06874e;
+  margin: 10% auto 0;
+  width: 30%;
+  padding: 0 30px 20px;
+  min-height: 500px;
+}
+
+.form-header {
+  text-align: center;
+  font-family: Roboto-Bold;
+}
+
+.sign-in-form button {
+  width: 100%;
+  outline: 0;
+  font-family: Roboto-Medium;
+  font-size: 20px;
+  background-color: #06874e;
+  border: 0;
+  color: #fff;
+  padding: 10px 0;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.sign-in-form button:disabled {
+  cursor: auto;
+  background-color: rgba(6, 135, 78, 0.25);
+}
+
+.helper-links {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.helper-links a {
+  font-family: Roboto-Bold;
+  color: #000;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+.sign-up-link {
+  margin: 5px 0;
+}
+
+.sign-up-link span {
+  font-size: 16px;
+  margin-right: 5px;
+}
